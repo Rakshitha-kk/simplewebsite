@@ -7,4 +7,7 @@ urlpatterns = [
     path("login2",views.login2,name="login2"),
     path("reg",views.reg,name="reg"),
     path("reg1",views.reg1,name="reg1"),
+    path("saveowner",views.saveowner,name="saveowner"),
+    path("dogview",views.dogview,name="dogview"),
+    path("viewing",views.viewing,name="viewing")
 ]
